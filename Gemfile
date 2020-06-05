@@ -54,7 +54,10 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # devise for user authentication
-gem 'devise'
+gem 'devise', '~> 4.7', '>= 4.7.1'
 
 # bootstrap for styling
 gem 'bootstrap-sass'
+
+# Simple Form
+gem 'simple_form'
